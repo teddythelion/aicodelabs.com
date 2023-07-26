@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo2} alt='logo' className='w-20 szr  h-20 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            AI Codelabs &nbsp;
-            <span className='sm:block hidden'> | Digital Lion Media LLC</span>
+          <img src={logo2} alt='logo' className=' xs:h-12 sm:h-12 md:h-12 xmd:h-12 xml:h-12 lg:h-16 sm:mr-4 md:mr-8 object-contain' />
+          <p className='text-white  sm:text-[18px] md:text-[18px] lg:[18px] xs:text-[18px] sm:mr-12 md:mr-6 lg:mr-10 xs:mr-0 font-bold cursor-pointer flex '>
+            AiCodelabs
+            <span className='sm:block hidden'></span>
           </p>
         </Link>
 

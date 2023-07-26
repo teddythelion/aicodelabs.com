@@ -3,13 +3,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@media(min-apsect-ratio: 16/9){
+#videoBG{
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  }
+}
+@media(max-apsect-ratio: 16/9){
+  #videoBG{    
+    width: 100%;
+    height: auto;
+    }
+  }
+  @media(max-width: 640px){
+    #videoBG{    
+      display: none;
+      }
+      .bg-cover{
+        background: url("poster.png") no-repeat;
+        background-size: cover;
+      }
+    }
+
+   
 .vertical-timeline-element-content{
 background-color: #234f4f !important;
 
 }
-.szr{
-  width:3rem !important;
-}
+
 .serviceCards {
   padding-left: 0rem;
   padding-right: 0rem;
@@ -26,10 +49,7 @@ margin-left:33%
   padding-top: 8rem !important;
   background-color:#0c1b2500 ;
 }
-.mx-11{
-  padding-top: 7.2rem;
-  margin-left:31.50rem !important ;
-}
+
 .inset-0 {
   top:0px;
   right: 0px;

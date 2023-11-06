@@ -50,8 +50,8 @@ const About = () => {
       >
         Data analysis is hard. What can you do with the data and how can it be used to positively 
         impact your business? AI is revoltionizing the process of gathering and analyzing data. It is also 
-        making connection we as humans cannot make because of the shear amount of data it is able to sift through.
-        And with this data it can together action plans at the click of a mouse.
+        making connection we as humans cannot make because of the shear amount of data you must be able to sift through.
+        After the data gathering and analyzing we can put together an action plan or action plans at the click of a mouse.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
